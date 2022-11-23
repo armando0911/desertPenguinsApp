@@ -8,7 +8,6 @@ import { ModalController } from '@ionic/angular';
 import { DetalleComponent } from 'src/app/mcomponentes/detalle/detalle.component';
 
 
-
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.page.html',
@@ -19,7 +18,6 @@ export class InicioPage implements OnInit {
 
   personajes: Personajesdp [] = [];
   
-
    //propiedades slide
   opcionesSlide = {
     slidesPerView:1.1,//se muestra uno parte del otro
@@ -40,7 +38,7 @@ export class InicioPage implements OnInit {
   ngOnInit() {
 
       
-        // el navegador está conectado a la red
+        
         this.servicioPersonajes.getDatos().subscribe((resp: ObjectPersonajes) => {
           console.log('conjunto de personajes > ', resp);
           this.personajes = resp.personajesdp;

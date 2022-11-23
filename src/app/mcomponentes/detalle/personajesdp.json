@@ -1,0 +1,53 @@
+{
+
+    "personajesdp" : 
+    [ 
+    
+    {
+        "id" : 1,
+        "nombre" : "Raymond",
+        "descripcion" : "Raymond, fue un pinguino en cautiverio durante mucho tiempo, hasta que por azares del destino aterrizó sobre un desierto, en el cual su vida no ha sido ni será nada fácil. Se ha convertido en pinguino mercenario, peleando por sobrevivir y conseguir llegar a su destino, si es que lo hay.",
+        "armas" : "AK-47",
+        "velocidad" : "10",
+        "vida" : "200",
+        "chaleco" : "200",
+        "debilidad" : "Garras de momia",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/personajesdpapp.appspot.com/o/master.png?alt=media&token=b48b7350-e6b6-4bbc-932d-e32488de739e"
+    }, 
+    {
+        "id" : 2,
+        "nombre" : "Murty",
+        "descripcion" : "Murty, o mejor dicho Morty's son momias dedicadas a servir a su amo, tienen habilidades de gran fuerza y resistencia que las hacen seres de otro mundo (literal), se encuentran atadas a una maldición desde hace mucho tiempo y su castigo es servir eternamente a su amo, defendiendo lo que queda de su imperio jamás descubierto, bueno, solo por Raymond.",
+        "armas" : "Garras con increible fuerza",
+        "velocidad" : "15",
+        "vida" : "400",
+        "chaleco" : "Ups vendas",
+        "debilidad" : "Balas",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/personajesdpapp.appspot.com/o/momia.png?alt=media&token=d3206b61-4d1a-41e8-8041-1ca66648b4c5"
+    },
+    {
+        "id" : 3,
+        "nombre" : "Pickman",
+        "descripcion" : "Pickman, es un ninja del desierto que al igual que Raymond, quedo atrapado en el profundo desierto desde hace mucho tiempo, más sin encambio el decidio ser ninja por siempre a causa de la muerte de todos sus amigos ninjas, los cuales murieron luchando contra el GRAN AMO. Pickman quiere venganza",
+        "armas" :"Kunai de plata",
+        "velocidad" : "12",
+        "vida" : "150",
+        "chaleco" : "300",
+        "debilidad" : "Garras de momia",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/personajesdpapp.appspot.com/o/ninja.png?alt=media&token=6f3a05bf-d2e6-4e4a-afb6-baaecdd41627"
+    },
+    {
+        "id" : 4,
+        "nombre" : "Sr. Dayd",
+        "descripcion" : "Sr. Dayd, es un medieval infernal que logro vencer a un emperador arrevatandole su inmortalidad y quitandole la vida para siempre, de esta manera Sr. Dayd se volvió inmortal adquiriendo tanto poder como para dominar el mundo, pero, ¿Por qué no lo ha hecho?, bueno, porque hasta hace poco una de sus Murty's le dio la idea",
+        "armas" :"Acha Maldita",
+        "velocidad" : "20",
+        "vida" : "1500",
+        "chaleco" : "1000",
+        "debilidad" : "Balas de fuego, Kunai de plata",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/personajesdpapp.appspot.com/o/medieval.png?alt=media&token=8aec6931-308d-413f-bc23-a9be72583683"
+    }
+    
+    ]
+
+}
