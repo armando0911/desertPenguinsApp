@@ -18,7 +18,7 @@ import { DetalleComponent } from 'src/app/mcomponentes/detalle/detalle.component
 export class InicioPage implements OnInit {
 
   personajes: Personajesdp [] = [];
-  mensajeError: String;
+  
 
    //propiedades slide
   opcionesSlide = {
@@ -39,7 +39,7 @@ export class InicioPage implements OnInit {
 
   ngOnInit() {
 
-      if(navigator.onLine) {
+      
         // el navegador está conectado a la red
         this.servicioPersonajes.getDatos().subscribe((resp: ObjectPersonajes) => {
           console.log('conjunto de personajes > ', resp);
@@ -48,10 +48,7 @@ export class InicioPage implements OnInit {
         })
         
         console.log(this.personajes)
-    } else {
-        // el navegador NO está conectado a la red
-        this.mensajeError = 'No hay conexion a internet'
-    }
+  
   
     
 
