@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- parte 2 agregando el menu al inicio  -->
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first"></ion-menu-button>
+    </ion-buttons>
+         
+    <ion-title>Desert Penguins</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background">
+  <ion-slides>
+    <ion-slide *ngFor="let personaje of personajes">
+      <ion-card color="warning" class="transparencia" (click)="verDetalle(personaje.id)">
+        <img [src]="personaje.url" style="height: 250px; width: 250px"/>
+        <ion-card-header>
+          <ion-text color="warning">{{mensajeError}}</ion-text>
+          <ion-card-title ><h1 style="font-weight: bold;">{{personaje.nombre}}</h1></ion-card-title>
+          <ion-button color="warning" style="font-weight: bold;">¿Quién soy?</ion-button>
+        </ion-card-header>
+      
+        <ion-card-content>
+          
+        </ion-card-content>
+      </ion-card>
+
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>
+
+
+<!-- 
+<ion-content class="back">
+  <div>
+    <ion-slides>
+      <ion-slide *ngFor="let personaje of personajes">
+        
+        <ion-card color="warning" class="ion-padding">
+          <img [src]="personaje.url" style="height:auto; width:auto"/>
+          <ion-card-header>
+            <ion-card-title style="font-weight: bold;">{{personaje.nombre}}</ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            
+          </ion-card-content>
+        </ion-card>
+  
+      </ion-slide>
+    </ion-slides>
+  
+    <h1></h1>
+  
+  </div>
+   
+  
+  </ion-content> -->

@@ -1,0 +1,40 @@
+ion-card {
+    --background: #000;
+    --color: #79ffebe3;
+  }
+  
+  ion-card-title {
+    --color: #08daba;
+  }
+  
+  ion-card-subtitle {
+    --color: #d1fff8;
+  }
+  
+  /* iOS places the subtitle above the title */
+  ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  // -------------------------- >
+
+ion-content.back{
+    --background: url(../../../assets/img/desertPdark.png) 0 0/100% 100% no-repeat;
+}
+
+.transparencia {
+    background: rgba(209, 207, 207, 0.116);
+}
+
+img {
+  //-webkit-filter: grayscale(100%); /* Safari 6.0 y superiores */
+  filter: grayscale(80%);
+  image-rendering: pixelated;
+  position: absolute;
+  padding: 0px;
+  clip-path: inset(0% 0% 30% 0%);
+  //object-fit: none;
+  
+}
+

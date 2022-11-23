@@ -1,0 +1,57 @@
+
+
+
+
+
+<ion-content class="back">
+  
+  <ion-card class="transparencia">
+    
+    <img [src]="personajeDetalle.url " style="height: 350px; width: 350px" />   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <ion-card-header>
+      <ion-card-title class="warning" style="background-color: rgba(11, 14, 11, 0.849); text-align: center;"><h1>{{personajeDetalle.nombre}}</h1></ion-card-title>
+      <ion-card-subtitle><h2>Descripción</h2></ion-card-subtitle>
+      
+    </ion-card-header>
+  
+    <ion-card-content>
+      {{personajeDetalle.descripcion}}
+    </ion-card-content>
+    <ion-card-content>
+      
+    <ion-card-subtitle><H1>Habilidades</H1></ion-card-subtitle>
+      <br>
+      <p>PH : {{personajeDetalle.vida}}</p>
+      <p>Armas : {{personajeDetalle.armas}}</p>
+      <p>Velocidad : {{personajeDetalle.velocidad}} Km/h</p>
+      <p>Chaleco : {{personajeDetalle.chaleco}} puntos</p>
+    </ion-card-content>
+
+    <ion-footer no-border>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-button (click)="regresar()">
+            <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+            <ion-label>Regresar</ion-label>
+          </ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+    
+    </ion-footer>
+
+  </ion-card>
+
+  
+</ion-content>
