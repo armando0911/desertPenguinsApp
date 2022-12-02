@@ -1,0 +1,24 @@
+{
+
+    "nivel" : 
+    [ 
+    
+    {
+        "id" : 1,
+        "nombre" : "Desierto de la muerte",
+        "descripcion" : "Un mapa muy tenebroso, donde podemos observar desde momias dispuestas a matar, hasta hermosas monedas de oro puro, es el primer nivel en donde encontrar el camino es nuestro trabajo",
+        "plataformasMoviles" : 2,
+        "plataformasEstaticas" : 40,
+        "enemigos" : 15,
+        "items" : 15,
+        "secretos" : 2,
+        "tiempoAproxJuego" : 10,
+        "url1" : "https://firebasestorage.googleapis.com/v0/b/nivelesdp.appspot.com/o/nivel1.png?alt=media&token=0eca1249-4481-44e9-b288-db6ef50721f0",
+        "url2" : "https://firebasestorage.googleapis.com/v0/b/nivelesdp.appspot.com/o/nivel1_1.png?alt=media&token=b7e3c0e8-19a1-445c-a919-38f53e968fd9",
+        "url3" : "https://firebasestorage.googleapis.com/v0/b/nivelesdp.appspot.com/o/nivel1_2.png?alt=media&token=dad2d1ca-bf3e-4998-8f7b-3231b3f4b465",
+        "url4" : "https://firebasestorage.googleapis.com/v0/b/nivelesdp.appspot.com/o/nivel1_3.png?alt=media&token=d4bf2610-1a66-4673-b324-11259fe59467"
+    }
+    
+    ]
+
+}

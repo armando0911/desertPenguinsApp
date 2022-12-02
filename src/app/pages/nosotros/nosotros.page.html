@@ -1,6 +1,24 @@
 <!--Incrustamos el componente header-->
 <app-cheader titulo="nosotros"></app-cheader>
 
-<ion-content class="background">
+<ion-content class="backgr">
+
+    <ion-slides [options]="opcionesSlide">
+        <ion-slide *ngFor="let nosotro of nosotros">
+          <ion-card color="warning" class="transparencia">
+            <img [src]="nosotro.img" style="height: 250px; width: 250px"/>
+            <ion-card-header>
+              
+              <ion-card-title ><h1 style="font-weight: bold;">{{nosotro.nombre}}</h1></ion-card-title>
+              <ion-card-subtitle color="warning" style="font-weight: bold;">{{nosotro.apellidoP}}</ion-card-subtitle>
+            </ion-card-header>
+          
+            <ion-card-content>
+              <div class="centrado"><label>{{nosotro.email}}</label></div>
+            </ion-card-content>
+          </ion-card>
+    
+        </ion-slide>
+      </ion-slides>
 
 </ion-content>

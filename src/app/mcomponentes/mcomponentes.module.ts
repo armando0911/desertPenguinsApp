@@ -7,12 +7,13 @@ import { CheaderComponent } from './cheader/cheader.component';//Vinculamos al m
 
 import { IonicModule } from '@ionic/angular';//la librería para reconocer las etiquetas ion que serán utilizadas en el header
 import { DetalleComponent } from './detalle/detalle.component';
+import { DetallesecretoComponent } from './detallesecreto/detallesecreto.component';
 
 // detalle -----------
 
 @NgModule({
-  declarations: [CheaderComponent,DetalleComponent],//se declara el componente
-  exports:[CheaderComponent,DetalleComponent], //se exporta el componente
+  declarations: [CheaderComponent,DetalleComponent, DetallesecretoComponent],//se declara el componente
+  exports:[CheaderComponent,DetalleComponent, DetallesecretoComponent], //se exporta el componente
   imports: [
     CommonModule,
     IonicModule //Se importa el uso de IonicModule

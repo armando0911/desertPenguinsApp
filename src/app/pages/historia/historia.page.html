@@ -2,6 +2,19 @@
 <app-cheader titulo="historia"></app-cheader>
 
 
-<ion-content class="background">
+<ion-content class="backgr">
+    <ion-card *ngFor="let historia of historia">
+        <ion-card-header>
+            <ion-card-title>{{historia.nombre}}</ion-card-title>
+        </ion-card-header>
+    
+    <ion-card-content style=" text-align: justify;">
+        <h2>{{historia.parrafo1}}</h2>
+        <br>
+        <h2>{{historia.parrafo2}}</h2>
+    </ion-card-content>
 
+
+
+    </ion-card>
 </ion-content>

@@ -2,6 +2,58 @@
 <app-cheader titulo="niveles"></app-cheader>
 
 
-<ion-content class="background">
+<ion-content class="backgr">
+    
+    
+  <ion-card *ngFor="let nivel of niveles">
+    
+  <ion-card-header>
+    <ion-card-title class="centrar">{{nivel.nombre}}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    
+
+    <div class="centrar"><h1>Descripción</h1>
+      <br>
+        <ion-label>{{nivel.descripcion}}</ion-label>
+      <br>
+      <br>
+            <h1>Plataformas Moviles</h1>
+                <ion-label>{{nivel.plataformasMoviles}}</ion-label>
+                <br>
+            <h1>Plataformas estaticas</h1>
+                 <ion-label>{{nivel.plataformasEstaticas}}</ion-label>
+                 <br>
+            <h1>Enemigos</h1>
+                <ion-label>{{nivel.enemigos}}</ion-label>
+                <br>
+            <h1>Items</h1>
+            <ion-label>{{nivel.items}}</ion-label>
+            <br>
+            <h1>Secretos</h1>
+            <ion-label>{{nivel.secretos}}</ion-label>
+            <br>
+            <h1>Tiempo de juego aproximado</h1>
+            <ion-label>{{nivel.tiempoAproxJuego}} minutos </ion-label>
+            <br>
+       
+    </div>
+    <br>
+    <div class="centrar">
+        <img [src]="nivel.url1 " style="height: auto; width: auto" />
+        <img [src]="nivel.url2 " style="height: auto; width: auto" />
+        <img [src]="nivel.url3 " style="height: auto; width: auto" />
+      </div>
+        
+</ion-card-content>
+
+</ion-card>
+
+<div class="centrar">
+
+    
+
+</div>
+
 
 </ion-content>

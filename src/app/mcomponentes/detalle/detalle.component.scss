@@ -1,6 +1,9 @@
 ion-card {
-    --background: #000;
-    --color: #79ffebe3;
+    --background: rgba(0, 0, 0, 0.63);
+    --color: #ffffff;
+    text-align: justify;
+    flex-wrap: wrap;
+    font-size:medium;
   }
   
   ion-card-title {
@@ -20,7 +23,7 @@ ion-card {
   // -------------------------- >
 
 ion-content.back{
-    --background: url(../../../assets/img/desertPdark.png) 0 0/100% 100% no-repeat;
+    --background: url(../../../assets/img/desiertoMinimalistaDark.jpg) 0 0/100% 100% no-repeat;
 }
 
 .transparencia {
@@ -36,5 +39,21 @@ img {
   clip-path: inset(0% 0% 30% 0%);
   //object-fit: none;
   
+}
+
+ion-item {
+  --ion-item-background: rgb(48, 48, 48);
+}
+
+div{
+  background-color:  rgb(48, 48, 48);
+}
+
+ion-text{
+  padding:14%;
+}
+
+.centrar{
+  text-align:center;
 }
 

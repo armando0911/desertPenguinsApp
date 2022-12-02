@@ -1,0 +1,16 @@
+{
+
+    "historia" : 
+    [ 
+    
+    {
+        "id" : 1,
+        "nombre" : "General del Juego",
+        "parrafo1" : "Rayden disfrutaba de una vida tan pero tan cotidiana en uno de los miles de zoológicos, hasta que, tras ser trasladado a un zoológico junto a otros de su misma especie, durante el viaje escapa de su jaula en busca de un poco de diversión y tal vez comida, sin darse cuenta termina en una zona estrictamente de personal autorizado, si así es “zona de mantenimiento del avión” donde accidentalmente abre una compuerta que sin saberlo termina arrojándole en caída libre…",
+        "parrafo2" : "De esta manera tan increíble termina en un desierto en medio de la nada, sin percatarse de señales de vida, hasta que poco a poco recorriendo las profundidades del terreno arenoso termina por involucrase en una gran aventura en la cual no solo lucha por sobrevivir, sino que también busca derrotar el imperio maldito de “Sr. Dayd” y sus secuaces Morty's.",
+        "url1" : "https://firebasestorage.googleapis.com/v0/b/historiadp-a180f.appspot.com/o/dayd.png?alt=media&token=b9711741-4b97-44f1-b007-8ac0464da846"
+    }
+    
+    ]
+
+}

@@ -10,7 +10,7 @@
 </ion-header>
 
 <ion-content class="background">
-  <ion-slides>
+  <ion-slides [options]="opcionesSlide">
     <ion-slide *ngFor="let personaje of personajes">
       <ion-card color="warning" class="transparencia" (click)="verDetalle(personaje.id)">
         <img [src]="personaje.url" style="height: 250px; width: 250px"/>
@@ -28,14 +28,12 @@
     </ion-slide>
   </ion-slides>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  
   <div class="centrado">
 
-    <ion-button  style="height: 70px; width: 190px" color="success" shape="round">Jugar</ion-button>
+    <ion-button  style="height: 50px; width: 200px" color="success" shape="round"><h1>JUGAR </h1>
+    
+    </ion-button>
 
   </div>
   
